@@ -1,12 +1,12 @@
 # Default Instance Test
 
-(Apple Feedback #`FB7734904`)
-
 On macOS Catalina (10.15.5 and earlier), there is an issue in which the default instance of a variable font cannot be selected in apps which use macOS system font handling (such as TextEdit, Keynote, Sketch, and more). This issue is not present in fonts with a default instance of “Regular,” but exists for all others. This repo is a way to investigate & provide a simple test case for this issue.
 
-Questions to answer are:
-- Is this issue reproducible with an extremely simple font?
-- Does the issue still occur if the default instance is “Regular”? E.g. is this only happening if the default instance is something like “Display Bold”?
+Useful Links:
+
+- Apple Feedback [FB7734904](https://feedbackassistant.apple.com/feedback/7734904) (only works for Apple employees, as far as I know)
+- Discussion in FontTools issues: https://github.com/fonttools/fonttools/issues/1994
+
 
 ## The Problem
 
