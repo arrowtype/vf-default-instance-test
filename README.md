@@ -1,5 +1,7 @@
 # Default Instance Test
 
+(Apple Feedback #`FB7734904`)
+
 On macOS Catalina (10.15.5 and earlier), there is an issue in which the default instance of a variable font cannot be selected in apps which use macOS system font handling (such as TextEdit, Keynote, Sketch, and more). This issue is not present in fonts with a default instance of “Regular,” but exists for all others. This repo is a way to investigate & provide a simple test case for this issue.
 
 Questions to answer are:
@@ -41,6 +43,8 @@ Unfortunately, it seems that in system font handling macOS, only variable fonts 
 ## Test files in this repo
 
 The tests in this repo reproduce this issue with variable fonts which are as simple as possible – containing a minimum of sources, and only characters `a b c`. They are simplified versions of Recursive Mono.
+
+Testing note: these fonts do not show up in the basic font menu of TextEdit, due to their limited character set. To select them, first install them, then open TextEdit, use the font menu, select `Show Fonts... → All Fonts` and then select `Test 1` or `Test 2`. 
 
 NOTE: though the example with a “Regular” default instance *does* work as expected, ***a “Regular” default instance should not be a requirement for a variable font.*** Variable fonts without a “Regular” default instance are perfectly valid OpenType fonts, and lacking a Regular default instance is actually perhaps a *more typical* scenario than including one.
 
