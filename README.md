@@ -37,3 +37,21 @@ Unfortunately, it seems that in system font handling macOS, only variable fonts 
 **Example of working font w/ Regular instance:** [Inter](https://github.com/rsms/inter) does work, likely due to the default instance being “Regular.”
 
 ![TextEdit working for Inter](readme-assets/textedit-inter.gif)
+
+
+## Build files
+
+Set up dependencies:
+
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+Then build the fonts:
+
+```
+fontmake -o variable -m test_1--light_extrabold/test_1-wght-light_extrabold.designspace 
+fontmake -o variable -m test_2--light_regular_extrabold/test_2-wght-light_regular_extrabold.designspace
+```

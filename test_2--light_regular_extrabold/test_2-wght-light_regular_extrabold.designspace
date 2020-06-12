@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="4.1">
   <axes>
-    <axis tag="wght" name="Weight" minimum="300" maximum="800" default="800"/>
+    <axis tag="wght" name="Weight" minimum="300" maximum="800" default="400"/>
   </axes>
   <sources>
     <source filename="vf_default_instance_test-light.ufo">
@@ -18,49 +18,49 @@
         <dimension name="Weight" xvalue="400"/>
       </location>
     </source>
-    <source filename="vf_default_instance_test-light.ufo">
+    <source filename="vf_default_instance_test-extrabold.ufo">
       <location>
         <dimension name="Weight" xvalue="800"/>
       </location>
     </source>
   </sources>
   <instances>
-    <instance familyname="Test_2" stylename="Light" filename="instances/Test_2-Style_1.ufo">
+    <instance familyname="Test_2" stylename="Light" filename="instances/Test_2-Light.ufo">
       <location>
         <dimension name="Weight" xvalue="300"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Test_2" stylename="Regular" filename="instances/Test_2-Style_1.ufo">
+    <instance familyname="Test_2" stylename="Regular" filename="instances/Test_2-Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Test_2" stylename="Medium" filename="instances/Test_2-Style_1.ufo">
+    <instance familyname="Test_2" stylename="Medium" filename="instances/Test_2-Medium.ufo">
       <location>
         <dimension name="Weight" xvalue="500"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Test_2" stylename="SemiBold" filename="instances/Test_2-Style_1.ufo">
+    <instance familyname="Test_2" stylename="SemiBold" filename="instances/Test_2-SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="600"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Test_2" stylename="Bold" filename="instances/Test_2-Style_1.ufo">
+    <instance familyname="Test_2" stylename="Bold" filename="instances/Test_2-Bold.ufo">
       <location>
         <dimension name="Weight" xvalue="700"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Test_2" stylename="ExtraBold" filename="instances/Test_2-Style_1.ufo">
+    <instance familyname="Test_2" stylename="ExtraBold" filename="instances/Test_2-ExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="800"/>
       </location>

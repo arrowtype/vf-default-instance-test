@@ -8,6 +8,8 @@
 		<integer>750</integer>
 		<key>descender</key>
 		<integer>-250</integer>
+		<key>familyName</key>
+		<string>Test 2</string>
 		<key>guidelines</key>
 		<array>
 		</array>
@@ -29,6 +31,8 @@
 		<key>postscriptStemSnapV</key>
 		<array>
 		</array>
+		<key>styleName</key>
+		<string>ExtraBold</string>
 		<key>unitsPerEm</key>
 		<integer>1000</integer>
 		<key>xHeight</key>
